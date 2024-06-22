@@ -1,5 +1,7 @@
 :root{
-    --primary-color: #4CAF50; /* Color principal */
-    --secondary-color: #CCC;  /* Color secundario */
-    --font-family: sans-serif;  
+    --primary-color: #4ca1af; /* Color principal */
+    --secondary-color: #2c3e50;  /* Color secundario */
+    --font-family: Arial,sans-serif;
+    --background-gradient: linear-gradient(to right,#2c3e50,#4ca1af);
+    --color-white: #fff;
 }
