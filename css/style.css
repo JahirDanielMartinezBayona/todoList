@@ -5,3 +5,15 @@
     font-family: var(--font-family);
     /* box-sizing: border-box; */
 }
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.todo-list{
+
+}
+
+.todo-list__title{
+    
+}
