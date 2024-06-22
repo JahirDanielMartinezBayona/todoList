@@ -1,8 +1,14 @@
 :root{
-    --primary-color: #4ca1af; /* Color principal */
-    --secondary-color: #2c3e50;  /* Color secundario */
     --font-family: Arial,sans-serif;
     --background-gradient: linear-gradient(to right,#2c3e50,#4ca1af);
     --color-white: #fff;
+    --color-grey: #efefef;
+    --color-dark-grey: #ddd;
+    --color-black: #333;
     --font-size-title: 3em;
+    --font-size-input: 1em;
+    --padding-input: 10px;
+    --border-radius-input-left: 5px 0 0 5px;
+    --border-radius-button-right: 0 5px 5px 0;
+    --transition-button: background-color 0.3s ease;
 }

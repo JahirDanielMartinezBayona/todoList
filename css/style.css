@@ -19,22 +19,35 @@ body{
 
 /* Block: main */
 .main{}
+
+/* Element: section*/
 .main__section{
 
 }
-
-.todo-list__title{
-    
-}
-.todo-list__list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.todo-list__item{
-    margin-bottom: 10px;
+/* Block: task-form*/
+.task-form{
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+/* Element: input */
+.task-form__input{
+    padding: var(--padding-input);
+    font-size: var(--font-size-input);
+    border: none;
+    border-radius: var(--border-radius-input-left);
+    outline: none;
+}
+/* Element: button */
+.task-form__button{
+    padding: var(--padding-input) 20px;
+    font-size: var(--font-size-input);
+    border: none;
+    border-radius: var(--border-radius-button-right);
+    background-color: var(--color-grey);
+    color: var(--color-black);
+    cursor: pointer;
+    transition: var(--transition-button);
 }
 .todo-list__item input[type="checkbox"]{
     margin-right: 10px;
