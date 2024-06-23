@@ -1,6 +1,5 @@
 @import url(variables.css);
 body{
-    padding: 0;
     margin: 0;
     font-family: var(--font-family);
     background: var(--background-gradient);
@@ -9,10 +8,10 @@ body{
     align-items: center;
     height: 100vh;
     color: var(--color-white);
-    text-align: center;
+    /* text-align: center; */
 }
 /* Block: header */
-.header{
+/* .header{
     justify-content: center;
     display: flex;
     align-items: center;
@@ -20,11 +19,21 @@ body{
 .header__title{
     font-size: var(--font-size-title);
     margin-bottom: 20px;
-}
+} */
 
 /* Block: main */
-.main{}
+.main{
+    text-align: center;
+}
+/* Element: header*/
+.main__header{
 
+}
+/* Element: title*/
+.main__title{
+    font-size: var(--font-size-title);
+    margin-bottom: 20px;
+}
 /* Element: section*/
 .main__section{
 
