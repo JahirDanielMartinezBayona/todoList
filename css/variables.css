@@ -11,4 +11,9 @@
     --border-radius-input-left: 5px 0 0 5px;
     --border-radius-button-right: 0 5px 5px 0;
     --transition-button: background-color 0.3s ease;
+    --border-radius-task: 20px;
+    --margin-task: 10px 0;
+    --padding-task: 10px 20px;
+    --color-complete-btn: #90ee90;
+    --color-delete-btn: #ff6b6b;
 }
