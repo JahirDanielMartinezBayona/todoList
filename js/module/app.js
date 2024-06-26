@@ -1,6 +1,6 @@
 
 
-export const getAllTaks = async() =>{
+export const getAllTask = async() =>{
     const url = ("https://6674179975872d0e0a950e53.mockapi.io/todoList");
     const custom = { method: "GET" };
 
